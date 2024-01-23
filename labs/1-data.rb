@@ -15,3 +15,21 @@
 # rand(1..6)
 # Log output to the screen with puts:
 # puts "Hello, world"
+
+# store a random # in memory for first die, and second die
+
+first_die = rand(1..6)
+second_die = rand(1..6)
+
+#store the total in memory
+
+total = first_die + second_die
+
+# write the first, second die to the screen in a user-friendly way, e.g, "First die:2"
+
+puts "First die: #{first_die}"
+puts "Second die: #{second_die}"
+
+# store total to the screen in a user-friendly way (recipe)
+
+puts "Sum of die: #{total}"

@@ -10,3 +10,13 @@
 
 # There are lots of fun things you can do with arrays:
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+favorite_foods = ["tacos", "pizza", "ice cream", 1, true, nil, false]
+
+# write the list to the screen
+
+#puts favorite_foods
+
+# write only my #1 favorte food to the screen
+
+puts favorite_foods[0]
