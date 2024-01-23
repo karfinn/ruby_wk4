@@ -16,4 +16,37 @@
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
 
+# store mine, friend's list
+my_list = ["milk","eggs", "bacon"]
+friend_list = ["beer","cookies","apples", "milk"]
+
+
+# combine the list
+
+our_list = my_list + friend_list
+
+# remove non-unique items
+
+
+unique_list= our_list.uniq
+# puts unique_list
+
+# alpha order
+
+sorted_list = unique_list.sort 
+# puts sorted_list
+
+#prepend with "buy" the items to screen
+
+# puts "Buy #{sorted_list[0]}"
+# puts "Buy #{sorted_list[1]}"
+# puts "Buy #{sorted_list[2]}"
+
+
+single_list = (my_list + friend_list).uniq.sort
+puts single_list
+
+
+ 
+
 
